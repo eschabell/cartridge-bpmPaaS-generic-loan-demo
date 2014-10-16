@@ -119,8 +119,8 @@ echo "${loan_username}=analyst,broker,manager,appraiser,loanOfficer" >> $BPMS_RO
 # Create temporary symlinks from <EAP_HOME>/standalone/configuration to users and roles files.
 # This files cannot be linked from $OPERNSHIFT_REPO_DIR yet because this repository is not initialized yet.
 # In post_install script, this symlinks will point the developer repository location in cartridge working directory.
-ln -s $BPMS_USERS_PATH "${OPENSHIFT_BPMS_DIR}/standalone/configuration/${OPENSHIFT_BPMS_USERS_FILE}"
-ln -s $BPMS_ROLES_PATH "${OPENSHIFT_BPMS_DIR}/standalone/configuration/${OPENSHIFT_BPMS_ROLES_FILE}"
+cp -v $BPMS_USERS_PATH "${OPENSHIFT_BPMS_DIR}/standalone/configuration/${OPENSHIFT_BPMS_USERS_FILE}"
+cp -v $BPMS_ROLES_PATH "${OPENSHIFT_BPMS_DIR}/standalone/configuration/${OPENSHIFT_BPMS_ROLES_FILE}"
 
 client_result ""
 client_result "Red Hat JBoss BPM Suite ${version} cartridge installed.  Please make note of these credentials:"
