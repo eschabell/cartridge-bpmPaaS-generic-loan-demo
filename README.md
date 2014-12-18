@@ -23,27 +23,13 @@ Once installed you can use the JBoss BPM Suite logins:
    * u: mary   p: bpmsuite (manager)
 
 
-Manual setup on OpenShift
--------------------------
-1. Login to OpenShift Origin and go to the [OpenShift create application page](https://openshift.redhat.com/app/console/application_types).
-
-2. In `CODE ANYTHING` field at bottom left of the page paste the following cartridge URI:
-
-     _https://raw.githubusercontent.com/jbossdemocentral/cartridge-bpmPaaS-generic-loan-demo/master/metadata/manifest.yml_
-
-3. Click on `NEXT` button and drink a warm beverage while you wait for finished cartridge installation.
-
-Once installed you can use the JBoss BPM Suite logins as listed above.
-
-
 Important Note
 --------------
 You need the ability to setup MEDIUM gears, which is freely available if you [upgrade your account to Bronze here] (https://www.openshift.com/products/pricing). 
 
 
-Deployment
-----------
-
+Manual setup on OpenShift
+-------------------------
 Or if you want to use the [rhc command line](https://www.openshift.com/developers/rhc-client-tools-install) type:
 
     rhc app create -g medium <APP NAME> https://raw.githubusercontent.com/jbossdemocentral/cartridge-bpmPaaS-generic-loan-demo/master/metadata/manifest.yml
@@ -61,7 +47,7 @@ Released versions
 
 See the tagged releases for the following versions of the product:
 
-- v1.1 - moved to JBoss Demo Central.
+- v1.2 - moved to JBoss Demo Central, added one click install button.
 
 - v1.1 - bpmPaaS on OpenShift cartridge, JBoss BPM Suite 6.0.2 and Generic Loan demo installed.
 
