@@ -2,8 +2,29 @@
 
 This cartridge provides the **_Red Hat JBoss BPM Suite_** for easy deployment to OpenShift based bpmPaaS with pre-loaded Generic Loan Demo.
 
-Setup Now
----------
+
+Install with one click in xPaaS (bpmPaaS)
+-----------------------------------------
+After clicking button, ensure `Gear` size is set to `medium`:
+
+[![Click to install OpenShift](http://launch-shifter.rhcloud.com/launch/light/Click to
+install.svg)](https://openshift.redhat.com/app/console/application_type/custom?&cartridges[]=https://raw.githubusercontent.com/jbossdemocentral/cartridge-bpmPaaS-generic-loan-demo/master/metadata/manifest.yml&name=bpmpaasgenericloan&gear_profile=medium&initial_git_url=)
+
+Once installed you can use the JBoss BPM Suite logins: 
+
+   * u:erics   p: bpmsuite  (admin)
+
+   * u: alan   p: bpmsuite  (analyst)
+
+   * u: daniel p: bpmsuite (developer)
+
+   * u: ursla  p: bpmsuite (user)
+
+   * u: mary   p: bpmsuite (manager)
+
+
+Manual setup on OpenShift
+-------------------------
 1. Login to OpenShift Origin and go to the [OpenShift create application page](https://openshift.redhat.com/app/console/application_types).
 
 2. In `CODE ANYTHING` field at bottom left of the page paste the following cartridge URI:
@@ -12,11 +33,7 @@ Setup Now
 
 3. Click on `NEXT` button and drink a warm beverage while you wait for finished cartridge installation.
 
-Once installed you can use the JBoss BPM Suite logins: 
-
-   * u:erics  p: bpmsuite  (admin)
-
-   * u: alan  p: bpmsuite  (analyst)
+Once installed you can use the JBoss BPM Suite logins as listed above.
 
 
 Important Note
