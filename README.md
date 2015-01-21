@@ -1,5 +1,5 @@
-## Cartridge for bpmPaaS with Generic Loan Demo
-
+Cartridge for bpmPaaS with Generic Loan Demo
+============================================
 This cartridge provides the **_Red Hat JBoss BPM Suite_** for easy deployment to OpenShift based bpmPaaS with pre-loaded Generic Loan Demo.
 
 
@@ -37,13 +37,13 @@ For more information on the [Generic Loan Demo see here] (https://github.com/jbo
 
 Supporting Articles
 -------------------
+[Rocket into the Clouds with OpenShift bpmPaaS Quickstarts](http://www.schabell.org/2014/10/red-hat-openshift-bpmpaas-automated-demo-projects-updated.html)
 
 [Red Hat OpenShift bpmPaaS - Generic Loan Demo now available in the Cloud] (http://www.schabell.org/2014/05/redhat-openshift-bpmPaaS-genericloan-demo.html)
 
 
 Released versions
 -----------------
-
 See the tagged releases for the following versions of the product:
 
 - v1.2 - moved to JBoss Demo Central, added one click install button.
@@ -51,6 +51,7 @@ See the tagged releases for the following versions of the product:
 - v1.1 - bpmPaaS on OpenShift cartridge, JBoss BPM Suite 6.0.2 and Generic Loan demo installed.
 
 - v1.0 - bpmPaaS on OpenShift cartridge, JBoss BPM Suite 6.0.1 and Generic Loan demo installed.
+
 
 ![Loan Process](https://github.com/jbossdemocentral/bpms-generic-loan-demo/blob/master/docs/demo-images/generic-loan-process.png?raw=true)
 
