@@ -1,3 +1,14 @@
+# Depricated: 
+
+-----
+
+This project was based on OpenShift v2, a new version is available 
+for [OpenShift Container Platform](https://github.com/redhatdemocentral/rhcs-generic-loan-demo).
+
+-----
+
+
+
 Cartridge for bpmPaaS with Generic Loan Demo
 ============================================
 This cartridge provides the **_Red Hat JBoss BPM Suite_** for easy deployment to OpenShift based bpmPaaS with pre-loaded Generic Loan Demo.
